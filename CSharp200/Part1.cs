@@ -57,5 +57,15 @@ namespace CSharp200 {
             Console.WriteLine(is_true);
             Console.WriteLine(word);
         }
+        public void func8() {
+            int x = 10;
+            int y = 1;
+            if (x > y) {
+                Console.WriteLine("x > y");
+            }
+            else {
+                Console.WriteLine("x < y");
+            }
+        }
     }
 }
