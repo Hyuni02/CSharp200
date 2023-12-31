@@ -15,5 +15,11 @@ namespace CSharp200 {
             int.TryParse(input, out number);
             Console.WriteLine("입력한 숫자는 : " + number);
         }
+        public void func3() {
+            int one = 1;
+            int two = 2;
+            int sum = one + two;
+            Console.WriteLine("1+2=" + sum);
+        }
     }
 }
