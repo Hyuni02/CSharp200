@@ -45,5 +45,17 @@ namespace CSharp200 {
             Console.WriteLine("sum1 = " + sum1);
             Console.WriteLine("sum2 = " + sum2);
         }
+        public void func7() {
+            char character = 'a';
+            int integer = 100;
+            double precision = 3.14;
+            bool is_true = true;
+            string word = "Hello World";
+            Console.WriteLine(character);
+            Console.WriteLine(integer);
+            Console.WriteLine(precision);
+            Console.WriteLine(is_true);
+            Console.WriteLine(word);
+        }
     }
 }
