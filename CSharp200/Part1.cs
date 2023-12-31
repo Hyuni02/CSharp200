@@ -33,5 +33,17 @@ namespace CSharp200 {
             Console.WriteLine("1+2=" + $"{one + two}");
             Console.WriteLine("1-2=" + $"{one - two}");
         }
+        public void func6() {
+            int two = 2;
+            int eight = 8;
+            int sum1 = 2;
+            int sum2 = 2;
+
+            sum1 = sum1 + two;
+            sum2 += eight;
+
+            Console.WriteLine("sum1 = " + sum1);
+            Console.WriteLine("sum2 = " + sum2);
+        }
     }
 }
