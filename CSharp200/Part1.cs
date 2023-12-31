@@ -9,5 +9,11 @@ namespace CSharp200 {
         public void func1() {
             Console.WriteLine("Hello C# World!");
         }
+        public void func2() {
+            int number = 0;
+            string input = Console.ReadLine();
+            int.TryParse(input, out number);
+            Console.WriteLine("입력한 숫자는 : " + number);
+        }
     }
 }
