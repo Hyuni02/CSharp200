@@ -80,5 +80,15 @@ namespace CSharp200 {
             Console.WriteLine(sum1);
             Console.WriteLine(sum2);
         }
+        public void func10() {
+            const int ARRAY_SIZE = 3;
+            int[] ints = new int[ARRAY_SIZE];
+            ints[0] = 2012;
+            ints[1] = 2015;
+            ints[2] = 1994;
+            Console.WriteLine(ints[0]);
+            Console.WriteLine(ints[1]);
+            Console.WriteLine(ints[2]);
+        }
     }
 }
