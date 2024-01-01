@@ -111,6 +111,9 @@ namespace CSharp200 {
                 Console.WriteLine($"{i}");
             }
         }
+        public void func15() {
+            //스코핑룰
+        }
     }
 }
 namespace first {
