@@ -28,5 +28,11 @@
             Console.WriteLine(pi_d);
             Console.WriteLine(pi_f);
         }
+        public void func20() {
+            int x = 1;
+            int y = 2;
+            bool same = x == y;
+            Console.WriteLine(same);
+        }
     }
 }
