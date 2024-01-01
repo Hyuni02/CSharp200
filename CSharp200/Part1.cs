@@ -24,8 +24,8 @@ namespace CSharp200 {
         public void func4() {
             const int YEAR_M1911 = 1911;
             const int YEAR_AK47 = 1947;
-            Console.WriteLine("M1911 제작년도 : " +  YEAR_M1911);
-            Console.WriteLine("AK47 제작년도 : " +  YEAR_AK47);
+            Console.WriteLine("M1911 제작년도 : " + YEAR_M1911);
+            Console.WriteLine("AK47 제작년도 : " + YEAR_AK47);
         }
         public void func5() {
             int one = 1;
@@ -72,7 +72,7 @@ namespace CSharp200 {
             int sum2 = 0;
             int one = 1;
             int two = 2;
-            for(int i=0; i < 5; i++) {
+            for (int i = 0; i < 5; i++) {
                 sum1 += one;
                 sum2 += two;
             }
@@ -91,7 +91,7 @@ namespace CSharp200 {
             Console.WriteLine(ints[2]);
         }
         public void func11() {
-            Plus(1,2);
+            Plus(1, 2);
         }
         private void Plus(int a, int b) {
             Console.WriteLine(a + b);
@@ -101,5 +101,28 @@ namespace CSharp200 {
             //Console.WriteLine("comment");
             Console.WriteLine("after comment");
         }
+        public void func13() {
+            var fir = new first.fir();
+            fir.print();
+            var sec = new second.sec();
+            sec.print();
+        }
     }
 }
+namespace first {
+    internal class fir {
+        int integer = 1;
+        public void print() {
+            Console.WriteLine(integer + "from first");
+        }
+    }
+}
+namespace second {
+    internal class sec {
+        int integer = 2;
+        public void print() {
+            Console.WriteLine(integer + "from second");
+        }
+    }
+}
+
