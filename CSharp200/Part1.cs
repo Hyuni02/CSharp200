@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿using System.Collections;
 namespace CSharp200 {
     internal class Part1 {
         public void func1() {
@@ -106,6 +101,15 @@ namespace CSharp200 {
             fir.print();
             var sec = new second.sec();
             sec.print();
+        }
+        public void func14() {
+            List<int> list = new List<int>();
+            for(int i=0;i<10;i++) {
+                list.Add(i);
+            }
+            foreach(int i in list) {
+                Console.WriteLine($"{i}");
+            }
         }
     }
 }
