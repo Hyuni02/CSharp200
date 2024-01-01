@@ -22,5 +22,11 @@
             Console.WriteLine(neg);
             Console.WriteLine(ascii);
         }
+        public void func19() {
+            double pi_d = 3.14;
+            float pi_f = 3.14f;
+            Console.WriteLine(pi_d);
+            Console.WriteLine(pi_f);
+        }
     }
 }
