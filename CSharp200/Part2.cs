@@ -14,5 +14,13 @@
             Console.WriteLine(str2);
             Console.WriteLine(str + str2);
         }
+        public void func18() {
+            int posi = 100;
+            int neg = -100;
+            int ascii = 'a';
+            Console.WriteLine(posi);
+            Console.WriteLine(neg);
+            Console.WriteLine(ascii);
+        }
     }
 }
