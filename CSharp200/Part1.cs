@@ -90,5 +90,11 @@ namespace CSharp200 {
             Console.WriteLine(ints[1]);
             Console.WriteLine(ints[2]);
         }
+        public void func11() {
+            Plus(1,2);
+        }
+        private void Plus(int a, int b) {
+            Console.WriteLine(a + b);
+        }
     }
 }
