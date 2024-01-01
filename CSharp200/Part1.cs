@@ -96,5 +96,10 @@ namespace CSharp200 {
         private void Plus(int a, int b) {
             Console.WriteLine(a + b);
         }
+        public void func12() {
+            Console.WriteLine("before comment");
+            //Console.WriteLine("comment");
+            Console.WriteLine("after comment");
+        }
     }
 }
