@@ -64,5 +64,11 @@
             Console.WriteLine(b == c);
             Console.WriteLine(b != c);
         }
+        public void func25() {
+            bool a = true;
+            bool b = false;
+            Console.WriteLine(a && b);
+            Console.WriteLine(a || b);
+        }
     }
 }
