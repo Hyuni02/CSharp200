@@ -46,5 +46,14 @@
             Console.WriteLine(a + b);
             Console.WriteLine(a - b);
         }
+        public void func23() {
+            int a = 1;
+            Console.WriteLine(a++);
+            Console.WriteLine(a++);
+            Console.WriteLine(++a);
+            Console.WriteLine(a--);
+            Console.WriteLine(a--);
+            Console.WriteLine(--a);
+        }
     }
 }
