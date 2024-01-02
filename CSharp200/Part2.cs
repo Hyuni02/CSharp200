@@ -55,5 +55,14 @@
             Console.WriteLine(a--);
             Console.WriteLine(--a);
         }
+        public void func24() {
+            int a = 1;
+            int b = 2;
+            int c = 2;
+            Console.WriteLine(a == b);
+            Console.WriteLine(a != b);
+            Console.WriteLine(b == c);
+            Console.WriteLine(b != c);
+        }
     }
 }
