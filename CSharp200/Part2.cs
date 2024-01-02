@@ -75,5 +75,10 @@
             int b = 2;
             Console.WriteLine(a > b ? a : b);
         }
+        public void func27() {
+            int a = 1, b = 2;
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+        }
     }
 }
