@@ -70,5 +70,10 @@
             Console.WriteLine(a && b);
             Console.WriteLine(a || b);
         }
+        public void func26() {
+            int a = 1;
+            int b = 2;
+            Console.WriteLine(a > b ? a : b);
+        }
     }
 }
