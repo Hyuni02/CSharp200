@@ -89,5 +89,8 @@
             int c = (int)(b / a);
             Console.WriteLine(c);
         }
+        public void func30() {
+            //명시적 변환
+        }
     }
 }
