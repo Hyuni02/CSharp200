@@ -40,5 +40,11 @@
             int c = a + b;
             Console.WriteLine(c);
         }
+        public void func22() {
+            int a = 1;
+            int b = -2;
+            Console.WriteLine(a + b);
+            Console.WriteLine(a - b);
+        }
     }
 }
