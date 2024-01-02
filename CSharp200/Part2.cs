@@ -80,5 +80,8 @@
             Console.WriteLine(a);
             Console.WriteLine(b);
         }
+        public void func28() {
+            //비트 연산자
+        }
     }
 }
