@@ -83,5 +83,11 @@
         public void func28() {
             //비트 연산자
         }
+        public void func29() {
+            int a = 1;
+            float b = 2.2f;
+            int c = (int)(b / a);
+            Console.WriteLine(c);
+        }
     }
 }
