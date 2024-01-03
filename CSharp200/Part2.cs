@@ -123,5 +123,15 @@ namespace CSharp200 {
                 }
             }
         }
+        public void func35() {
+            string input = "ak12 uses 5.56mm ammo, ak15 uses 7.62mm ammo";
+            int count = 0;
+            for (int i = 0; i < input.Length; i++) {
+                if (input[i] == 'm') {
+                    count++;
+                }
+            }
+            Console.WriteLine(count);   
+        }
     }
 }
