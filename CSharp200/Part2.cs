@@ -185,5 +185,8 @@ namespace CSharp200 {
                 }
             } while (a < 10);
            }
+        public void func40() {
+            //이중 for문
+        }
     }
 }
