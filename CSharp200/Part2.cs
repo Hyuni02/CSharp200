@@ -104,5 +104,8 @@
             else if (a < 0) Console.WriteLine("a<0");
             else Console.WriteLine("a>0");
         }
+        public void func33() {
+            //if 중첩으로 최대값 찾기
+        }
     }
 }
