@@ -173,5 +173,17 @@ namespace CSharp200 {
                 }
             }
         }
+        public void func39() {
+            int a = 0;
+            do {
+                a++;
+                if (a % 3 == 0) {
+                    continue;
+                }
+                else {
+                    Console.WriteLine(a);
+                }
+            } while (a < 10);
+           }
     }
 }
