@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.Design;
+using System.Diagnostics;
 
 namespace CSharp200 {
     internal class Part2 {
@@ -158,6 +159,18 @@ namespace CSharp200 {
                 default:
                     Console.WriteLine("no match");
                     break;
+            }
+        }
+        public void func38() {
+            int a = 0;
+            while (a < 10) {
+                a++;
+                if(a%3 == 0) {
+                    continue;
+                }
+                else {
+                    Console.WriteLine(a);
+                }
             }
         }
     }
