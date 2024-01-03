@@ -92,5 +92,11 @@
         public void func30() {
             //명시적 변환
         }
+        public void func31() {
+            Console.WriteLine(sizeof(int));
+            Console.WriteLine(sizeof(float));
+            Console.WriteLine(sizeof(double));
+            Console.WriteLine(sizeof(char));
+        }
     }
 }
