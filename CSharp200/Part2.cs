@@ -98,5 +98,11 @@
             Console.WriteLine(sizeof(double));
             Console.WriteLine(sizeof(char));
         }
+        public void func32() {
+            int a = 1;
+            if (a == 0) Console.WriteLine("a=0");
+            else if (a < 0) Console.WriteLine("a<0");
+            else Console.WriteLine("a>0");
+        }
     }
 }
