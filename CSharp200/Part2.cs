@@ -1,4 +1,6 @@
-﻿namespace CSharp200 {
+﻿using System.ComponentModel.Design;
+
+namespace CSharp200 {
     internal class Part2 {
         public void func16() {
             char c1 = 'c';
@@ -106,6 +108,20 @@
         }
         public void func33() {
             //if 중첩으로 최대값 찾기
+        }
+        public void func34() {
+            int a = 7;
+            for(int i = 0; i < 10; i++) {
+                if(i % 3 == 0) {
+                    continue;
+                }
+                else if(i == a) {
+                    break;
+                }
+                else{
+                    Console.WriteLine(i);
+                }
+            }
         }
     }
 }
