@@ -133,5 +133,15 @@ namespace CSharp200 {
             }
             Console.WriteLine(count);   
         }
+        public void func36() {
+            int[] data = { 1, 2, 3, 4, 5, 6, 7, 8, 9, };
+            int count = 0;
+            for (int i = 0; i < data.Length; i++) {
+                if (data[i] % 2 == 0) {
+                    count++;
+                }
+            }
+            Console.WriteLine(count);
+        }
     }
 }
