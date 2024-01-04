@@ -188,5 +188,21 @@ namespace CSharp200 {
         public void func40() {
             //이중 for문
         }
+        public void func41() {
+            int p = 0, n = 0, t = 0;
+            for (int i = 0; i < 10; i++) {
+                p = 0;
+                n = 1;
+                for(int j = 0; j < i; j++) {
+                    Console.Write(n);
+                    Console.Write(", ");
+                    t = n;
+                    n += p;
+                    p = t;
+                }
+                Console.WriteLine("");
+            }
+
+        }
     }
 }
