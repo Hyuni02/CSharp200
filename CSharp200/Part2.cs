@@ -217,5 +217,9 @@ namespace CSharp200 {
                 Console.WriteLine();
             }
         }
+        public void func43() {
+            Console.WriteLine(MathF.Floor(1.1f));
+            Console.WriteLine(MathF.Ceiling(1.1f));
+        }
     }
 }
