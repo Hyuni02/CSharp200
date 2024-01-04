@@ -204,5 +204,18 @@ namespace CSharp200 {
             }
 
         }
+        public void func42() {
+            int size = 4;
+            for (int i = 1, j=0; i <= size; i++,j=0) {
+                for(int k = 1; k <= size-i; k++) {
+                    Console.Write("  ");
+                }
+                while(j!=2 * i - 1) {
+                    Console.Write("* ");
+                    j++;
+                }
+                Console.WriteLine();
+            }
+        }
     }
 }
