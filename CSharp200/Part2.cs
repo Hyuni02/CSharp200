@@ -221,5 +221,11 @@ namespace CSharp200 {
             Console.WriteLine(MathF.Floor(1.1f));
             Console.WriteLine(MathF.Ceiling(1.1f));
         }
+        public void func44() {
+            Console.WriteLine(MathF.Round(1.3f));
+            Console.WriteLine(MathF.Round(1.5f));
+            Console.WriteLine(MathF.Round(-1.3f));
+            Console.WriteLine(MathF.Round(-1.5f));
+        }
     }
 }
