@@ -241,5 +241,8 @@ namespace CSharp200 {
         public void func47() {
             Console.WriteLine(MathF.Sqrt(4));
         }
+        public void func48() {
+            //modf없음
+        }
     }
 }
