@@ -231,5 +231,12 @@ namespace CSharp200 {
             Console.WriteLine(MathF.Abs(-10));
             Console.WriteLine(MathF.Pow(2, 3));
         }
+        public void func46() {
+            double x = 5.7;
+            int div = (int)(x / 3);
+            Console.WriteLine(div);
+            double mod = x % 3;
+            Console.WriteLine(mod);
+        }
     }
 }
