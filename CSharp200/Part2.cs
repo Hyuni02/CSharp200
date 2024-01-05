@@ -248,5 +248,11 @@ namespace CSharp200 {
             Random rand = new Random();
             Console.WriteLine(rand.Next(10));
         }
+        public void func50() {
+            int[] arr = { 1, 2, 3, 4, 5 };
+            Random random = new Random();
+            arr=arr.OrderBy(x => random.Next()).ToArray();
+            foreach (int x in arr) Console.WriteLine(x);
+        }
     }
 }
