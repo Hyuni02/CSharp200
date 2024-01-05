@@ -227,5 +227,9 @@ namespace CSharp200 {
             Console.WriteLine(MathF.Round(-1.3f));
             Console.WriteLine(MathF.Round(-1.5f));
         }
+        public void func45() {
+            Console.WriteLine(MathF.Abs(-10));
+            Console.WriteLine(MathF.Pow(2, 3));
+        }
     }
 }
