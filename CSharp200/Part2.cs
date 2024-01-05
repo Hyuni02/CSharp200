@@ -238,5 +238,8 @@ namespace CSharp200 {
             double mod = x % 3;
             Console.WriteLine(mod);
         }
+        public void func47() {
+            Console.WriteLine(MathF.Sqrt(4));
+        }
     }
 }
