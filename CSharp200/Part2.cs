@@ -244,5 +244,9 @@ namespace CSharp200 {
         public void func48() {
             //modf없음
         }
+        public void func49() {
+            Random rand = new Random();
+            Console.WriteLine(rand.Next(10));
+        }
     }
 }

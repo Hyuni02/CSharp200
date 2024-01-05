@@ -2,7 +2,7 @@
     internal class Program {
         static void Main(string[] args) {
             Part2 part = new Part2();
-            part.func48();
+            part.func49();
         }
     }
 }
