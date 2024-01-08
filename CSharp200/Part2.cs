@@ -284,5 +284,12 @@ namespace CSharp200 {
             string ak12 = "마일리는 ak12의 닉네임입니다.";
             Console.Write(ak12.Length.ToString());
         }
+        public void func56() {
+            string ak12 = "ak12";
+            string an94 = "AN94";
+
+            Console.WriteLine(ak12.ToUpper());
+            Console.WriteLine(an94.ToLower());
+        }
     }
 }
