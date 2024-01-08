@@ -254,5 +254,9 @@ namespace CSharp200 {
             arr=arr.OrderBy(x => random.Next()).ToArray();
             foreach (int x in arr) Console.WriteLine(x);
         }
+        public void func51() {
+            DateTime dateTime = DateTime.Now;
+            Console.WriteLine(dateTime.ToString());
+        }
     }
 }
