@@ -311,5 +311,8 @@ namespace CSharp200 {
             sentence = sentence.Remove(2,5);
             Console.WriteLine(sentence);
         }
+        public void func60() {
+            //c#에 move가 없는 듯?
+        }
     }
 }
