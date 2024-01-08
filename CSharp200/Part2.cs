@@ -267,5 +267,13 @@ namespace CSharp200 {
             DateTime end = DateTime.Now;
             Console.WriteLine(end - start);
         }
+        public void func53() {
+            string ak12 = "마일리";
+            string ak12_2 = "마일리";
+            string an94 = "안구사";
+
+            Console.WriteLine(ak12.Equals(an94));
+            Console.WriteLine(ak12.Equals(ak12_2));
+        }
     }
 }
