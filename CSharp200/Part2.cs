@@ -306,5 +306,10 @@ namespace CSharp200 {
             sentence = sentence.Insert(2, "hate ");
             Console.WriteLine(sentence);
         }
+        public void func59() {
+            string sentence = "i hate coding";
+            sentence = sentence.Remove(2,5);
+            Console.WriteLine(sentence);
+        }
     }
 }
