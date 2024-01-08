@@ -291,5 +291,15 @@ namespace CSharp200 {
             Console.WriteLine(ak12.ToUpper());
             Console.WriteLine(an94.ToLower());
         }
+        public void func57() {
+            string miley = "Miley";
+            string ak12 = "ak12";
+            string sentense = "";
+            sentense += miley;
+            sentense += " is ";
+            sentense += ak12;
+            sentense += "'s nickname";
+            Console.WriteLine(sentense);
+        }
     }
 }
