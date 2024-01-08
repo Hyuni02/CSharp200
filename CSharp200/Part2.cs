@@ -301,5 +301,10 @@ namespace CSharp200 {
             sentense += "'s nickname";
             Console.WriteLine(sentense);
         }
+        public void func58() {
+            string sentence = "i coding";
+            sentence = sentence.Insert(2, "hate ");
+            Console.WriteLine(sentence);
+        }
     }
 }
