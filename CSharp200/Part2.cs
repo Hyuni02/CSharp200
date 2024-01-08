@@ -258,5 +258,14 @@ namespace CSharp200 {
             DateTime dateTime = DateTime.Now;
             Console.WriteLine(dateTime.ToString());
         }
+        public void func52() {
+            DateTime start = DateTime.Now;
+            int n = 0;
+            for(int i = 0; i < 100000; i++) {
+                n++;
+            }
+            DateTime end = DateTime.Now;
+            Console.WriteLine(end - start);
+        }
     }
 }
