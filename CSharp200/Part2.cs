@@ -275,5 +275,14 @@ namespace CSharp200 {
             Console.WriteLine(ak12.Equals(an94));
             Console.WriteLine(ak12.Equals(ak12_2));
         }
+        public void func54() {
+            string ak12 = "마일리는 ak12의 닉네임입니다.";
+            int idx = ak12.IndexOf("ak12");
+            Console.WriteLine(idx.ToString());
+        }
+        public void func55() {
+            string ak12 = "마일리는 ak12의 닉네임입니다.";
+            Console.Write(ak12.Length.ToString());
+        }
     }
 }
